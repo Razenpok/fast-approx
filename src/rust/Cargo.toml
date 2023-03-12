@@ -1,0 +1,15 @@
+[package]
+name = "wasm"
+version = "0.1.0"
+authors = ["Andrei Andreev <razenpok@gmail.com>"]
+description = "Wasm companion of fast-approx"
+license = "MIT"
+repository = "https://github.com/razenpok/fast-approx"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+libm = "0.2.6"
+wasm-bindgen = "0.2"
